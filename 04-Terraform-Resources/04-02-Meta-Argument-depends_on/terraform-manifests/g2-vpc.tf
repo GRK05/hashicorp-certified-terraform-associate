@@ -8,7 +8,13 @@ resource    "aws-vpc" "dev_vpc" {
    }
 }
  # Resource-2: Create Subnets
-
+resource "aws_subnet" "vpc_dev_public_subnet-1" {
+   vpc_id = aws_vpc.vpc-dev.id
+   cidr_block ="10.0.1.0/24"
+   avaavailability_zone = "us-east-1a"
+   map_publimap_public_ip_on_launch = true+ 
+  
+}
 
 # Resource-3: Internet Gateway
 
