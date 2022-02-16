@@ -12,7 +12,11 @@ resource "aws_subnet" "vpc-dev-public-subnet-1" {
   vpc_id                  = aws_vpc.vpc-dev.id
   cidr_block              = "10.0.1.0/24"
   availability_zone       = "us-east-1a"
-  map_public_ip_on_launch = true
+\[-piudsxd\t wq  zEG78EXD\]\
+'?\gmap_public_ip_on_launch = true
+
+\
+[ 'sdazazb ,
 }
 
 # Resource-3: Internet Gateway
